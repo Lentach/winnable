@@ -2,14 +2,12 @@ import React from 'react';
 
 const ImgComp = ({src}) => {
     let imgStyle = {
-        width: 100+'%',
-        height: 'auto',
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+
     }
-    return (
-        <div>
-            <img src={src} alt="slide-img" style={imgStyle}/>;
-        </div>
-    );
+    return <img src={src} alt="slide-img" style={imgStyle}/>
 };
 
 export default ImgComp;

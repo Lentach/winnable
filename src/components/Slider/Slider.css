@@ -34,15 +34,6 @@
     outline: none;
 }
 
-#goLeft:hover {
-    background: rgba(0,0,0, 0.356);
-    cursor: pointer;
-}
-
-#goLeft:hover i {
-    color: whitesmoke;
-}
-
 #goRight {
     position: absolute;
     top: 50%;
@@ -55,36 +46,22 @@
     outline: none;
 }
 
-#goRight:hover {
+#goLeft:hover i, #goRight:hover i {
+    color: whitesmoke;
+}
+
+#goRight:hover, #goLeft:hover {
     background: rgba(0,0,0, 0.356);
     cursor: pointer;
 }
 
-#goRight:hover i {
-    color: whitesmoke;
-}
-
 @media all and (max-width: 768px) {
-    #goRight {
-        position: absolute;
-        top: 18%;
-        right: 20px;
-        transform: translateY(-50%);
-        width: 25%;
-        height: 20%;
-        background: none;
-        border: none;
-        outline: none;
+    #goRight, #goLeft {
+        background: rgba(0,0,0, 0.356);
+        cursor: pointer;
     }
-    #goLeft {
-        position: absolute;
-        top: 18%;
-        right: 20px;
-        transform: translateY(-50%);
-        width: 25%;
-        height: 20%;
-        background: none;
-        border: none;
-        outline: none;
+
+    #goRight i, #goLeft i  {
+        color: whitesmoke;
     }
 }

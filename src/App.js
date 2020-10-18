@@ -4,14 +4,16 @@ import Slider from "./components/Slider/Slider";
 import Nav from "./components/nav/Nav";
 import Hero from "./components/hero/Hero";
 import ContactUs from "./components/contactUs/ContactUs";
+import {sliderArr, sliderArr2} from "./data/slider.data";
 
 
 function App() {
   return (
-    <div >
+    <div>
       <Nav/>
       <Hero/>
-      <Slider/>
+      <Slider sliderArr={sliderArr}/>
+      <Slider sliderArr={sliderArr2}/>
       <ContactUs/>
     </div>
   );

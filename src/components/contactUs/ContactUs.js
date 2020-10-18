@@ -4,12 +4,19 @@ const ContactUs = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const [success, setSuccess] = useState(false);
 
-    const handleSubmit = (e) => e.preventDefault()
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        // if (/wysztkie warunki zostaja spelnione - nie sa pustymi stringami/)
+        setSuccess(true)
+    };
 
     return (
-        <div>
-            <form className='form' onSubmit={handleSubmit}>>
+            <form
+                className='form'
+                onSubmit={handleSubmit}>
+                >
                 <h1>Contact Me</h1>
                 <i className="fab fa-phoenix-framework"/>
                 <br/>
@@ -35,10 +42,18 @@ const ContactUs = () => {
                         onChange={(e => setMessage(e.target.value))}
                     />
 
+
+
                     <button type='submit'>Submit</button>
+                {success && <p>Wiadomosc zostala wyslana</p>}
+
             </form>
-        </div>
     );
 };
 
 export default ContactUs;
+
+
+// jesli jest sucsses to wyswietlasz paragraf pod buttonem, na handlesubmit() zmieniasz stan sucsses na true i wyzerowac stan wszystkich inputow
+
+// src nowy folder -assets = masz importowac wsszystkie obrazki
