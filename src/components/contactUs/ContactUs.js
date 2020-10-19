@@ -1,16 +1,61 @@
 import React, {useState} from 'react';
 import './ContactUs.css'
 const ContactUs = () => {
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [message, setMessage] = useState('')
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
     const [success, setSuccess] = useState(false);
+    const [error, setError] = useState(null);
+
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        // if (/wysztkie warunki zostaja spelnione - nie sa pustymi stringami/)
-        setSuccess(true)
+        if (handleValidate()) {
+            setSuccess(true);
+        } else {
+            setSuccess(false);
+        }
     };
+
+
+    const handleValidate = () => {
+
+        if (!name.trim() || name.trim().length < 3) {
+            setError('Name must be at least 3 chars');
+            return false;
+
+        } else {
+            setError(null);
+        }
+
+        if (!email.trim() || email.trim().length < 5) {
+            setError('email must be at least 5 chars');
+            return false;
+
+        } else {
+            setError(null);
+        }
+
+        if (!email.trim() || email.trim().indexOf('@') === -1) {
+            setError('@ must me included');
+            return false;
+
+        } else {
+            setError(null);
+        }
+
+
+        if (!message.trim() || message.trim().length < 8) {
+            setError('Message must be at least 8 chars');
+            return false;
+
+        } else {
+            setError(null);
+        }
+
+        return true;
+    }
 
     return (
             <form
@@ -42,13 +87,14 @@ const ContactUs = () => {
                         onChange={(e => setMessage(e.target.value))}
                     />
 
-
-
                     <button type='submit'>Submit</button>
-                {success && <p>Wiadomosc zostala wyslana</p>}
+                {success ? <p>Wiadomosc zostala wyslana</p> :error }
+
 
             </form>
     );
+
+
 };
 
 export default ContactUs;
