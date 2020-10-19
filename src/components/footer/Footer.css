@@ -1,6 +1,6 @@
 .footer-container {
     background-color: #311939;
-    padding-bottom: 64px;
+    padding: 145px 0 131px 0;
 }
 
 .footer {
@@ -49,12 +49,23 @@
     height: 40px;
     border-radius: 4px;
     background-color: #3d1c47;
+    padding-left: 10px;
 }
 
 @media all and (max-width: 768px) {
     .footer-heading {
         width: 100%;
 
+    }
+}
+
+@media all and (max-width: 1150px) {
+    .footer {
+        height: 50vh;
+    }
+
+    footer.footer-email-form {
+        margin-top: 64px;
     }
 }
 
