@@ -5,8 +5,6 @@ import Nav from "./components/nav/Nav";
 import Hero from "./components/hero/Hero";
 import ContactUs from "./components/contactUs/ContactUs";
 import Footer from "./components/footer/Footer";
-
-
 import {sliderArr, sliderArr2} from "./data/slider.data";
 
 
