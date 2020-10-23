@@ -1,0 +1,148 @@
+.footer-container {
+    width: 100%;
+    background: #3d1c47;
+    display: inline-block;
+    /*height: 50vh;*/
+    text-align: center;
+    padding: 50px;
+    text-decoration: underline;
+    font-size: 20px;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+
+.footer {
+    background: #3d1c47;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    /*padding: 55px 50px;*/
+}
+
+.footer-left, .footer-center, .footer-right {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer h3 span {
+    color: lightseagreen;
+}
+
+.footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-links a {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 8px;
+}
+
+.footer-company {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-center {
+    width: 35%;
+}
+
+.footer-center i {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    background: #3d1c47;
+    font-size: 22px;
+}
+
+.footer-center i.fab-fa-envelope {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: normal;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-links a:before {
+    content: "|";
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding-right: 5px;
+    left: 0;
+}
+
+.lina1a:before {
+    content: none;
+}
+
+.footer-right {
+    width: 20%;
+}
+
+.footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-company-about span {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    margin-top: 25px;
+}
+
+.footer-social a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #3d1c47;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
