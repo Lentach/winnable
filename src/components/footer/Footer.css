@@ -19,6 +19,7 @@
     font-size: 16px;
     font-weight: 500;
     /*padding: 55px 50px;*/
+    display: flex;
 }
 
 .footer-left, .footer-center, .footer-right {
