@@ -8,9 +8,9 @@
 
 .hero-image {
     position: relative;
-    height: 1000px;
+    height: 100vh;
     overflow: hidden;
-    background: url(i5.jpg) no-repeat center;
+    background: url(../../assets/contactUs-pics/i5.jpg) no-repeat center;
     background-size: cover;
 }
 

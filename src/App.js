@@ -6,6 +6,7 @@ import Hero from "./components/hero/Hero";
 import ContactUs from "./components/contactUs/ContactUs";
 import Footer from "./components/footer/Footer";
 import {sliderArr, sliderArr2} from "./data/slider.data";
+import About from "./components/About/about";
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
       <Nav/>
       <Hero/>
       <Slider sliderArr={sliderArr}/>
-      <Slider sliderArr={sliderArr2}/>
-      <ContactUs/>
+        <Slider sliderArr={sliderArr2}/>
+        <About/>
+        <ContactUs/>
       <Footer/>
     </div>
   );

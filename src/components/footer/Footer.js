@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <i className='fa fa---envelope'/>
-                        <p><a href='#'/>samcznejprzygody@wujekstaszek.pet</p>
+                        <p><a href='#'/>samcznej@wujekstaszek.pet</p>
                     </div>
                 </div>
                 <div className="footer-right">

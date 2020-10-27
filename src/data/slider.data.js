@@ -1,10 +1,11 @@
 import ImgComp from "../components/Slider/imgComponent";
 import React from "react";
-import i1 from "../components/Slider/pics/i1.jpg";
-import i2 from "../components/Slider/pics/i2.jpg";
-import i3 from "../components/Slider/pics/i3.png";
-import i4 from "../components/Slider/pics/i4.jpg";
-import i5 from "../components/Slider/pics/i5.jpg";
+import i1 from '../assets/slider-img/i1.jpg'
+import i2 from '../assets/slider-img/i2.jpg'
+import i3 from '../assets/slider-img/i3.png'
+import i4 from '../assets/slider-img/i4.jpg'
+import i5 from '../assets/slider-img/i5.jpg'
+
 
 export const sliderArr = [
     <ImgComp src={i1}/>,

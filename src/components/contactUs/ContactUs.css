@@ -17,7 +17,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(i5.jpg) center no-repeat;
+    background: url(../../assets/contactUs-pics/i5.jpg) center no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;

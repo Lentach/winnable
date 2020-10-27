@@ -18,8 +18,8 @@
     font-size: 16px;
     font-weight: 500;
     padding: 55px 50px;
-    /*display: flex;*/
-    /*    flex make underline visible why?*/
+
+
 }
 
 .footer .footer-left,
@@ -164,6 +164,7 @@
     .footer .footer-left,
     .footer .footer-center,
     .footer .footer-right {
+        padding: 0;
         display: block;
         width: 100%;
         margin-bottom: 40px;
@@ -172,6 +173,10 @@
 
     .footer .footer-center {
         margin-left: 0;
+    }
+
+    .footer .footer-social a {
+        margin-right: 8px;
     }
 }
 
