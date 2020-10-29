@@ -4,7 +4,7 @@ nav {
     min-height: 5vh;
     align-items: center;
     font-family: sans-serif;
-    background-color: #3d1c47;
+    background-color: hsl(300, 43%, 22%);
     color: white;
     position: fixed;
     top: 0;
@@ -51,7 +51,7 @@ nav .burger {
         top: 0;
         left: 0;
         height: 100vh;
-        background-color: #311939;
+        background-color: hsl(300, 43%, 22%);
         padding: 40px;
         width: 50%;
         transform: translateX(-500px);
