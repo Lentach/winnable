@@ -4,19 +4,13 @@ import logoColton from '../../assets/about/image-colton.jpg'
 import logoIrene from '../../assets/about/image-irene.jpg'
 import logoAnne from '../../assets/about/image-anne.jpg'
 import star from '../../assets/about/icon-star.svg'
+import Intro from "./Intro/Intro";
 
 const About = () => {
     return (
         <div className="container-about">
             <article className="top">
-                <section className="intro">
-                    <h1>10,000+ of our users love our products.</h1>
-                    <p>
-                        We only provide great products combined with excellent customer
-                        service. See what our satisfied customers are saying about our
-                        services.
-                    </p>
-                </section>
+                <Intro/>
                 <section className="reviews">
                     <div className="review">
                         <div className="stars">
