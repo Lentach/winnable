@@ -11,17 +11,22 @@ const Nav = () => {
             <ul className='nav-links'
                 style={{transform: open ? 'translateX(0px)' :''}}>
                 <li>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a>Home</a>
                 </li>
                 <li>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a>Product</a></li>
                 <li>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a>Services</a>
                 </li>
                 <li>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a>About</a>
                   </li>
                 <li>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a>Contact</a>
                 </li>
             </ul>

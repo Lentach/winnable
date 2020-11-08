@@ -41,10 +41,11 @@ nav .burger {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1050px) {
     nav .burger {
         display: block;
     }
+
     nav .nav-links {
         position: absolute;
         display: block;
