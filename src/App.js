@@ -16,9 +16,9 @@ function App() {
       <Hero/>
       <Slider sliderArr={sliderArr}/>
         <Slider sliderArr={sliderArr2}/>
-        <About/>
         <ContactUs/>
-      <Footer/>
+        <About/>
+        <Footer/>
     </div>
   );
 }

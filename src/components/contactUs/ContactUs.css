@@ -61,16 +61,13 @@ textarea:focus {
 }
 
 .form button {
-    padding: 20px;
-    border: none;
-    background-color: rgb(2, 2, 110);
-    font-weight: 500;
+    color: #313131;
+    padding: 10px 24px;
     font-size: 20px;
-    border-radius: 3px;
-    color: #fff;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-    margin-top: 10px;
+    text-decoration: none;
+    background: #f1f1f1;
+    border-radius: 8px;
+    transition: 0.3s all;
 }
 
 .form button:hover {

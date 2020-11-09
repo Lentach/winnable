@@ -98,7 +98,7 @@ html {
 }
 
 
-@media (min-width: 1050px) {
+@media (min-width: 1150px) {
 
     body {
         display: flex;
@@ -107,14 +107,14 @@ html {
     }
 
     .container-about {
-        /*width: 100%;*/
         padding: 80px 50px 50px 35px;
         max-width: 1110px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: 180px;
+        margin-left: 750px;
+
     }
 
     .top {
@@ -186,4 +186,16 @@ html {
         margin-right: 0;
     }
 
+}
+
+@media screen and(min-width: 1024px) {
+    .container-about {
+        padding: 80px 50px 50px 35px;
+        max-width: 1110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 750px;
+    }
 }

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './ContactUs.css'
+
 const ContactUs = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -88,7 +89,7 @@ const ContactUs = () => {
                     />
 
                     <button type='submit'>Submit</button>
-                {success ? <p>Wiadomosc zostala wyslana</p> :error }
+                {success ? <p>Message has been sent</p> : error}
 
 
             </form>
