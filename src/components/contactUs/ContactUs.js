@@ -62,7 +62,6 @@ const ContactUs = () => {
             <form
                 className='form'
                 onSubmit={handleSubmit}>
-                >
                 <h1>Contact Me</h1>
                 <i className="fab fa-phoenix-framework"/>
                 <br/>
@@ -89,7 +88,8 @@ const ContactUs = () => {
                     />
 
                     <button type='submit'>Submit</button>
-                {success ? <p>Message has been sent</p> : error}
+                {success ? <p className="formMessage">Message has been sent</p> :
+                    <p className="formMessage">{error}</p>}
 
 
             </form>
@@ -99,8 +99,3 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
-
-
-// jesli jest sucsses to wyswietlasz paragraf pod buttonem, na handlesubmit() zmieniasz stan sucsses na true i wyzerowac stan wszystkich inputow
-
-// src nowy folder -assets = masz importowac wsszystkie obrazki

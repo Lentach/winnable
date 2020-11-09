@@ -12,13 +12,25 @@ import About from "./components/About/About";
 function App() {
   return (
     <div>
-      <Nav/>
-      <Hero/>
-      <Slider sliderArr={sliderArr}/>
-        <Slider sliderArr={sliderArr2}/>
-        <ContactUs/>
-        <About/>
-        <Footer/>
+        <Nav/>
+        <div id='home'>
+            <Hero/>
+        </div>
+        <div id='product'>
+            <Slider sliderArr={sliderArr}/>
+        </div>
+        <div id='services'>
+            <Slider sliderArr={sliderArr2}/>
+        </div>
+        <div id='contact'>
+            <ContactUs/>
+        </div>
+        <div id="about">
+            <About/>
+        </div>
+        <div id="info">
+            <Footer/>
+        </div>
     </div>
   );
 }

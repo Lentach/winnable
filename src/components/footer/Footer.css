@@ -4,7 +4,7 @@
     display: flex;
     text-align: center;
     padding: 30px;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     font-size: 20px;
     color: #f1f1f1;
     font-weight: 700;
@@ -63,6 +63,7 @@
     font-size: 14px;
     font-weight: normal;
     margin: 0;
+    color: white;
 }
 
 .footer .footer-center {
@@ -161,6 +162,7 @@
 
     .footer {
         font-size: 14px;
+        flex-direction: column;
     }
 
     .footer .footer-left,

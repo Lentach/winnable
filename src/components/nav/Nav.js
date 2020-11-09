@@ -7,27 +7,25 @@ const Nav = () => {
 
     return (
         <nav>
-            <div className='logo'><i className="fas fa-bong"/>  Logo </div>
+            <div className='logo'><i className="fas fa-bong"/> Logo</div>
             <ul className='nav-links'
-                style={{transform: open ? 'translateX(0px)' :''}}>
+                style={{transform: open ? 'translateX(0px)' : ''}}>
                 <li>
-                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a>Home</a>
+                    <a href='#home'>Home</a>
                 </li>
                 <li>
-                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a>Product</a></li>
+                    <a href='#product'>Product</a></li>
                 <li>
-                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a>Services</a>
+                    <a href='#services'>Services</a>
                 </li>
                 <li>
-                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a>About</a>
-                  </li>
+                    <a href='#about'>About</a>
+                </li>
                 <li>
-                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a>Contact</a>
+                    <a href='#contact'>Contact</a>
+                </li>
+                <li>
+                    <a href='#info'>Info</a>
                 </li>
             </ul>
             <i onClick={() => setOpen(!open)} className="fas fa-bars burger"/>

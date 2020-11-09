@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import './Slider.css';
 
 
-
 const Slider = ({sliderArr}) => {
     const [x, setX] = useState(0);
 
@@ -18,15 +17,15 @@ const Slider = ({sliderArr}) => {
     return (
         <div className='slider'>
             {sliderArr.map((item, index) => {
-                    return (
-                        <div key={index}
-                             className='slide'
-                             style={{transform: `translateX(${x}%)`}}>
-                            {item}
-                        </div>
-                    );
-                })}
-                <button id='goLeft' onClick={goLeft}>
+                return (
+                    <div key={index}
+                         className='slide'
+                         style={{transform: `translateX(${x}%)`}}>
+                        {item}
+                    </div>
+                );
+            })}
+            <button id='goLeft' onClick={goLeft}>
                     <i className="fas fa-chevron-left"/>
                 </button>
                 <button id='goRight' onClick={goRight}>

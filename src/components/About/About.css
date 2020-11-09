@@ -108,14 +108,12 @@ html {
 
     .container-about {
         padding: 80px 50px 50px 35px;
-        max-width: 1110px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: 750px;
-
     }
+
 
     .top {
         display: flex;
